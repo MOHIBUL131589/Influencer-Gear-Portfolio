@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+/* shared styles */
+body{
+  background-color: #FFFFFF;
+  margin-top: 75px;
+  margin-right: 90px;
+  margin-left: 100px;
+  margin-bottom: auto;
+}
+.seek{
+  display: none;
+}
+.display-flex{
+  display: flex;
+}
+.btn-primary{
+  padding: 10px 24px;
+  background-color: #E02C6D;
+  border-radius: 41px;
+}
+
+/* Influencer Navbar */
+.influencer-navbar{
+  justify-content: space-between;
+  align-items: center;
+}
+.influencer-list{
+  padding-right: 50px;
+  align-items: center;
+  gap: 20px;
+}
+ul> li{
+  list-style: none;
+}
+ul> li> a {
+  text-decoration: none;
+  color: #3A3A3A;
+}
+
+/* Influencer banner styles */
+
+.influencer-journey{
+  height: 555px;
+  justify-content: space-between;
+  margin-top: 30px;
+
+}
+.influencer-header{
+  width: 590px;
+  margin-top: 65px;
+}
+.influencer-title{
+  font-size:3.4rem;
+  margin: 5px 0;
+}
+.influencer-hobby{
+  background: url(../images/Circle\ design.svg) no-repeat;
+  width: 380px;
+  height: 350px;
+  padding-top: 30px;
+  padding-right: 95px;
+  padding-bottom: 100px;
+
+}
+.btn-primary>i{
+  padding-left: 3px;
+}
+.company-banner{
+  margin: 0 auto;
+}
+.company-logos{
+  width: 1110px;
+  height: 110px;
+  border: 1px solid lightgrey;
+  box-shadow: 0 4px 8px rgb(237, 255, 255);
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  gap: 60px;
+}
+
+/* Popular Collection Styles */
+.all-card{
+  width: 1140px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+.collection-title{
+  font-size: 28px;
+  text-align: center;
+}
+.popular-collection-title{
+  font-size: 28px;
+  margin: 5px 0;
+}
+.popular-collection-subtitle{
+  font-size: 24px;
+  margin: 5px 0;
+}
+.popular-collection-images{
+  width: 329px;
+  height: 476px;
+  border: 2px solid whitesmoke;
+  box-shadow: 0 4px 8px rgba(211, 211, 211, 0.408);
+  background-color: #FFFFFF;
+  
+}
+.popular-collection-image, .popular-collection-header{
+  margin: 15px 15px;
+}
+
+@media screen and (max-width:576px) {
+  /*shared styles*/
+  body{
+    margin: 15px 15px;
+  }
+
+  /* Influencer Navbar */
+
+  .hide{
+    display: none;
+  }
+  .seek{
+    display: inline;
+  }
+  
+  .influencer-navbar{
+    width: 380px;
+  }
+  /* banner styles */
+  .influencer-journey{
+    flex-direction: column-reverse;
+  }
+  .influencer-hobby{
+    background: url(../images/Circle\ design.svg) no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+  }
+  .influencer-image{
+    width: 202px;
+    height: 190px;
+  }
+
+}
