@@ -220,6 +220,37 @@ ul> li> a {
   margin: 15px 15px;
 }
 
+.card-btn{
+  background-color: #FFFFFF;
+  border: none;
+  color: #E02C6D;
+  font-size: 1rem;
+  
+}
+/* Influencer feature styles */
+.influencer-features{
+  width: 1110px;
+  height: 270px;
+  justify-content: center;
+  margin: 70px auto;
+  margin-top: 100px;
+  
+  
+}
+.influencer-feature{
+  justify-content: space-between;
+  align-items: center;
+}
+.influencer-feature-header{
+  width: 610px;
+  height: 224px;
+  
+}
+.see-more{
+  width: 1140px;
+  justify-content: end;
+  margin: 0 auto;
+}
 @media screen and (max-width:576px) {
   /*shared styles*/
   body{
@@ -291,9 +322,6 @@ ul> li> a {
     grid-template-columns: 1fr;
     
   }
-  .img-bug{
-    width: 300px;
-    height: 256px;
-  }
+  
 
 }
