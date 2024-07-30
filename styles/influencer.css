@@ -239,7 +239,16 @@ ul> li> a {
     width: 380px;
   }
   /* banner styles */
+  .influencer-title{
+    font-size: 28px;
+  }
+  .influencer-header{
+    width: 380px;
+    text-align: center;
+    margin: 0;
+  }
   .influencer-journey{
+    margin: 0px;
     flex-direction: column-reverse;
   }
   .influencer-hobby{
@@ -248,7 +257,6 @@ ul> li> a {
     width: 100%;
     height: 100vh;
     padding: 0;
-    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -258,6 +266,34 @@ ul> li> a {
   .influencer-image{
     width: 202px;
     height: 190px;
+  }
+
+  /*logos responsive styles */
+  .company-logo{
+    width: 58px;
+    height: 32px;
+  }
+  .company-logos{
+    width: 330px;
+    height: 150px;
+    flex-wrap: wrap;
+    
+    border: none;
+    box-shadow: none;
+    gap: 30px;
+  }
+
+  /* Popular collection responsive styles */
+
+  .all-card{
+    width: 333px;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    
+  }
+  .img-bug{
+    width: 300px;
+    height: 256px;
   }
 
 }
