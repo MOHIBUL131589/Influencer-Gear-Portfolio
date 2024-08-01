@@ -112,11 +112,10 @@
 body{
   background-color: #FFFFFF;
   margin-top: 75px;
-  margin-right: 90px;
-  margin-left: 100px;
+ 
   margin-bottom: auto;
 }
-.seek{
+.menu-icon{
   display: none;
 }
 .display-flex{
@@ -130,6 +129,8 @@ body{
 
 /* Influencer Navbar */
 .influencer-navbar{
+  margin-right: 90px;
+  margin-left: 100px;
   justify-content: space-between;
   align-items: center;
 }
@@ -149,6 +150,8 @@ ul> li> a {
 /* Influencer banner styles */
 
 .influencer-journey{
+  margin-right: 90px;
+  margin-left: 100px;
   height: 555px;
   justify-content: space-between;
   margin-top: 30px;
@@ -227,9 +230,16 @@ ul> li> a {
   font-size: 1rem;
   
 }
+/* See More Styles */
+
+.see-more{
+  width: 1140px;
+  justify-content: end;
+  margin: 0 auto;
+}
 /* Influencer feature styles */
 .influencer-features{
-  width: 1110px;
+  width: 1140px;
   height: 270px;
   justify-content: center;
   margin: 70px auto;
@@ -238,6 +248,7 @@ ul> li> a {
   
 }
 .influencer-feature{
+  width: 1110px;
   justify-content: space-between;
   align-items: center;
 }
@@ -246,27 +257,44 @@ ul> li> a {
   height: 224px;
   
 }
-.see-more{
-  width: 1140px;
-  justify-content: end;
-  margin: 0 auto;
+
+/* Footer Styles */
+.footer{
+  margin: 0px;
+  color: #FFFFFF;
+  background-color: #0A0826;
+  text-align: center;
 }
+.footer-title, .footer-subtitle{
+ 
+ padding-top: 8px;
+ margin: 15px auto;
+}
+i{
+  width: 28px;
+  height: 28px;
+}
+
 @media screen and (max-width:576px) {
   /*shared styles*/
   body{
-    margin: 15px 15px;
+    margin: 5px 10px;
   }
 
   /* Influencer Navbar */
-
+  .btn-primary{
+    padding: 10px 6px 1px 6px;
+    text-align: center;
+  }
   .hide{
     display: none;
   }
-  .seek{
+  .menu-icon{
     display: inline;
   }
   
   .influencer-navbar{
+    margin:0px;
     width: 380px;
   }
   /* banner styles */
@@ -321,6 +349,51 @@ ul> li> a {
     margin: 0 auto;
     grid-template-columns: 1fr;
     
+  }
+
+  /* Feature Section Responsive styles */
+  .influencer-features{
+    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+
+  }
+  .influencer-feature{
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .influencer-feature-image{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+
+    
+  }
+  .image{
+    width: 80%;
+    height: auto;
+    
+    
+  }
+
+  .influencer-feature-header{
+    width: 100%;
+    padding-left: 0px;
+    text-align: center;
+    
+    
+  }
+
+  /* Footer Responsive Styles */
+  .footer{
+    height: 150px;
+
+    margin-top: 50px;
+  }
+  .footer-title, .footer-subtitle{
+    margin: 0px;
+    padding: 7px;
   }
   
 
